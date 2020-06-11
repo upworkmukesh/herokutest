@@ -1,8 +1,3 @@
-
-
-So this is what I would look at, and sorry if any of these assumptions are wrong, or I am going through stuff you have already done.
-
-Your composer.json should be divided up into require and require-dev. Require would be installed in production with require-dev added locally.
 {
     "name": "something/something",
     "description": "A description of my project",
